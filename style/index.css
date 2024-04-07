@@ -30,7 +30,7 @@ header{ background-color:rgba(247, 144, 14, 0.10);
       align-items: center;
     }
 
-    .nav-titel{font-size: 2.6rem;
+    .section-titel{font-size: 2.6rem;
       font-weight: 700;
       color: #131313;
 
@@ -114,6 +114,49 @@ main{
   color: #ff900e;
   font-weight: 700;
 }
+
+
+
+/* facts section */
+
+.facts-card-container{
+  display: flex;
+  justify-content: space-around;
+  
+}
+  
+  .text-light-gray{
+    color: #727272;
+    font-size: 2rem;
+  } 
+
+.facts-card-container .card{
+  border-radius:4px ;
+  border: 1px solid rgb(245, 176, 164);
+  text-align: center;
+ padding:30px;
+ margin-right: 40px;
+ flex: 1;
+ margin-top: 20px;
+
+}
+
+
+
+.facts-card-container .card-stats{
+  font-size: 2.8rem;
+  color: #242424;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.facts-card-container .card-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #727272;
+  margin-top: 5px;
+}
+
 
 /* responsive media queries */
 /* mubail devices */
