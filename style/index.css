@@ -46,10 +46,17 @@ header{ background-color:rgba(247, 144, 14, 0.10);
       list-style: none;
       margin-right: 30px;
       font-weight: 500;
-      font-size: 1rem;
+      font-size: 1.55rem;
+     
+    }
+
+     nav li:hover{
+    
+      background-color: #c1f3f7;
      
     }
     nav li a{
+      
       text-decoration: none;
       color: #242424;
     }
