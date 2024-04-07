@@ -165,16 +165,20 @@ main{
   header{
     padding:20px ;
   }
-  nav ,.teams-contaner{
+  nav ,.teams-contaner ,.facts-card-container{
     flex-direction: column;
   }
 
   .teams-img-contaner{
     grid-template-columns: 1fr;
   }
-  .teams-content{padding-right: 10px;
+  .teams-content, .facts-card-container {padding-right: 10px;
     padding-left: 10px;
   
+  }
+
+  .facts-card-container{
+    gap: 20px;
   }
   
 }
@@ -185,4 +189,9 @@ main{
     padding:20px ;
   }
   nav ,.teams-contaner{flex-direction: column;}
+
+  .facts-card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
 }
